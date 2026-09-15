@@ -68,15 +68,11 @@ The longest chain consists of 7 song titles and is unique.
     7. Her Majesty
 ```
 
-## What is reproduced
+## Output
 
-| Output | Result | In the paper |
-| --- | --- | --- |
-| Network statistics | 345 nodes, 276 links, 89 connected components, the largest of size 132 | Table 1, Section 3 |
-| Trail census | 742 chains in total, of which 276 of length 1 down to 1 of length 7 | Table 2, Section 4 |
-| Longest chain | 7 song titles, and it is the only chain of that length | Table 3, Section 4 |
-| Longest disjoint chain | 5 song titles, in 5 variants that differ only in their first song | Table 4, Section 5 |
-| Longest chain of originals | 4 song titles, in 3 variants, out of 199 titles written by a Beatle | Section 6 |
+The script prints the network statistics, the trail census, the longest chain, the longest
+disjoint chain and the longest chain of originals, reproducing Tables 1 to 4 and Sections 3 to 6
+of the paper.
 
 Each search is an exhaustive depth-first search: starting from each node in turn, the current
 trail is extended along every link it has not used yet and abandoned when no unused link is left.
