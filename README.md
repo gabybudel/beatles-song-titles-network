@@ -40,10 +40,33 @@ python beatles_chains.py
 ```
 
 The script takes well under a second and writes its results to standard output. Pass `--data` to
-run it on a different edge list, for instance the song titles of another artist:
+run it on another edge list with the same columns, for instance the song titles of another artist:
 
 ```
 python beatles_chains.py --data my_song_titles.csv
+```
+
+Part of the output:
+
+```
+Section 4. The longest chain of Beatles song titles
+===================================================
+
+Length of chain         1     2     3     4     5     6     7     8
+Number of chains      276   233   151    60    17     4     1     0
+
+Total number of chains: 742
+
+The longest chain consists of 7 song titles and is unique.
+
+  Hallelujah, I love her So how Come and get It's only Love you To know her is to love Her Majesty
+    1. Hallelujah, I Love Her So
+    2. So How Come (No One Loves Me)
+    3. Come And Get It
+    4. It's Only Love
+    5. Love You To
+    6. To Know Her Is To Love Her
+    7. Her Majesty
 ```
 
 ## What is reproduced
