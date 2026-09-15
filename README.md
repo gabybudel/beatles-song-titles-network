@@ -22,7 +22,6 @@ number and every chain reported in the paper.
 | --- | --- |
 | `beatles_chains.py` | Builds the network and runs the searches; prints the results of Sections 3 to 6 |
 | `data/beatles_song_titles.csv` | The 276 song titles as an edge list; the input the script reads |
-| `data/beatles_song_titles.txt` | The same table in fixed-width columns, for reading without a spreadsheet |
 | `requirements.txt` | Python dependencies |
 
 ## Requirements
